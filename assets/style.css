@@ -1,0 +1,95 @@
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        overflow-x: hidden;
+    }
+
+    .about-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+
+    .about-section {
+        background: #f8fafc;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    .about-img {
+        border-radius: 1rem;
+        max-width: 100%;
+    }
+
+    .contact-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+
+    .contact-section {
+        background: #f8fafc;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    .form-label {
+        font-weight: 500;
+    }
+
+        .carousel-caption {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        bottom: auto;
+        transform: translateY(-50%);
+        padding-bottom: 0;
+        padding-top: 0;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .carousel-caption::before {
+        display: none;
+        /* optional: matches card rounding */
+    }
+
+    .carousel-caption h5,
+    .carousel-caption {
+        color: #fff !important;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+        font-size: 2.2rem;
+        font-family: Georgia, serif;
+    }
+
+    .carousel-image-gradient {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .carousel-image-gradient img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .carousel-image-gradient::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0) 100%);
+        pointer-events: none;
+    }
+
+    .card:hover{
+        background-color: #f8fafc;
+        transition: background-color 0.3s ease-in-out;
+    }

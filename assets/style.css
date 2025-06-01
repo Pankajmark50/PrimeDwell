@@ -1,19 +1,27 @@
     body {
         font-family: Georgia, 'Times New Roman', Times, serif;
         overflow-x: hidden;
+        background-color: #f0f4f8;
     }
 
-    .about-header {
+    .img-arrange{
+        height:450px;
+        width: 450px;
+    }
+
+    .about-header, .project-header {
         font-size: 2.5rem;
         font-weight: bold;
         margin-top: 2rem;
     }
 
-    .about-section {
+    .about-section, .project-section, .contact-section {
         background: #f8fafc;
         border-radius: 1rem;
         padding: 2rem;
         margin-top: 2rem;
+        margin-left:0.5rem;
+        margin-right:0.5rem;
     }
 
     .about-img {
@@ -27,18 +35,12 @@
         margin-top: 2rem;
     }
 
-    .contact-section {
-        background: #f8fafc;
-        border-radius: 1rem;
-        padding: 2rem;
-        margin-top: 2rem;
-    }
-
     .form-label {
         font-weight: 500;
     }
 
-        .carousel-caption {
+
+    .carousel-caption {
         position: absolute;
         left: 0;
         right: 0;
@@ -51,6 +53,10 @@
         text-align: center;
     }
 
+    .carousel {
+        margin-top: 66px;
+    }
+
     .carousel-caption::before {
         display: none;
         /* optional: matches card rounding */
@@ -60,7 +66,7 @@
     .carousel-caption {
         color: #fff !important;
         text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-family: Georgia, serif;
     }
 
@@ -89,7 +95,41 @@
         pointer-events: none;
     }
 
-    .card:hover{
+    .card:hover {
         background-color: #f8fafc;
         transition: background-color 0.3s ease-in-out;
+    }
+
+
+    .project-card {
+        overflow: hidden;
+        border-radius: 1rem;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s cubic-bezier(.4, 2, .6, 1), box-shadow 0.3s;
+    }
+
+    .project-card:hover {
+        transform: scale(1.05) rotate(-1deg);
+        box-shadow: 0 16px 48px rgba(0, 0, 0, 0.25);
+    }
+
+    .animate-fade-in {
+        opacity: 0;
+        transform: translateY(40px) scale(0.96);
+        animation: fadeInUp 1s forwards;
+    }
+
+    .animate-fade-in[style*="animation-delay: 0.2s;"] {
+        animation-delay: 0.2s;
+    }
+
+    .animate-fade-in[style*="animation-delay: 0.4s;"] {
+        animation-delay: 0.4s;
+    }
+
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
     }

@@ -9,11 +9,20 @@
     <link rel="stylesheet" href="assets/minty.css">
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
+    <style>
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/primedwell-logo.png" alt="PrimeDwell Logo" width="40" height="40">
@@ -30,13 +39,13 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="project.html">Project</a>
+                        <a class="nav-link" aria-current="page" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -83,112 +92,54 @@
             <div class="col-md-3 mt-3">
                 <div class="card h-100">
                     <div class="card-body d-flex flex-column h-100">
-                        <h5 class="card-title text-center">Colony Projects</h5>
+                        <h5 class="card-title text-center">Our Vision</h5>
                         <hr>
-                        <p class="card-text">Explore our thoughtfully planned colonies, offering modern amenities and a
-                            vibrant community lifestyle.</p>
-                        <a href="#" class="btn btn-primary mt-auto">View Colonies</a>
+                        <p class="card-text">We envision vibrant, sustainable communities where families thrive and
+                            every detail reflects quality and care.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mt-3">
                 <div class="card h-100">
                     <div class="card-body d-flex flex-column h-100">
-                        <h5 class="card-title text-center">Apartments</h5>
+                        <h5 class="card-title text-center">Our Expertise</h5>
                         <hr>
-                        <p class="card-text">Discover spacious and elegant apartments designed for comfort, security,
-                            and convenience in prime locations.</p>
-                        <a href="#" class="btn btn-primary mt-auto">See Apartments</a>
+                        <p class="card-text">With years of experience, PrimeDwell delivers modern architecture, smart
+                            home technology, and innovative design in every project.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mt-3">
                 <div class="card h-100">
                     <div class="card-body d-flex flex-column h-100">
-                        <h5 class="card-title text-center">Interiors & Exteriors</h5>
+                        <h5 class="card-title text-center">Our Commitment</h5>
                         <hr>
-                        <p class="card-text">Take a virtual tour of our stunning interiors and exteriors, crafted with
-                            attention to detail and quality.</p>
-                        <a href="#" class="btn btn-primary mt-auto">View Gallery</a>
+                        <p class="card-text">We are dedicated to transparency, ethical practices, and exceeding customer
+                            expectations at every step of your journey.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mt-3">
                 <div class="card h-100">
                     <div class="card-body d-flex flex-column h-100">
-                        <h5 class="card-title text-center">Amenities</h5>
+                        <h5 class="card-title text-center">Our Promise</h5>
                         <hr>
-                        <p class="card-text">Enjoy world-class amenities including parks, gyms, clubhouses, and more for
-                            a fulfilling lifestyle.</p>
-                        <a href="#" class="btn btn-primary mt-auto">See Amenities</a>
+                        <p class="card-text">PrimeDwell promises world-class amenities, beautiful homes, and a lifestyle
+                            that inspires pride and belonging.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col-md-6 col-sm-2 mt-3" data-aos="fade-right">
-                <div class="card rounded-4 overflow-hidden">
-                    <img src="assets/francesca-tosolini-6japTIjUQoI-unsplash-min.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-2 mt-3" data-aos="fade-left">
-                <div class="card rounded-4 overflow-hidden">
-                    <img src="assets/ronnie-george-z11gbBo13ro-unsplash-min.jpg" class="d-block object-fit-cover"
-                        alt="">
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col-md-6 order-1 order-md-1 mt-3" data-aos="zoom-in-right">
-                <div class="card rounded-4 overflow-hidden">
-                    <img src="assets/pexels-expect-best-79873-323780-min.jpg" class="card-img-top" alt="...">
-                </div>
-            </div>
-            <div class="col-md-6 order-2 order-md-2 mt-3" data-aos="slide-left">
-                <p class="fs-4">Experience the future of living with PrimeDwell’s contemporary homes. Our designs
-                    feature clean lines, expansive glass, and open spaces that fill your home with natural light. Every
-                    element is crafted for both style and functionality, ensuring your home is as impressive as it is
-                    comfortable. Discover how modern architecture and thoughtful planning come together to create a
-                    truly exceptional living environment.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col-md-6 order-2 order-md-1 mt-3" data-aos="slide-right">
-                <p class="fs-4">At PrimeDwell, we blend innovative design with quality craftsmanship to create modern
-                    homes that stand out for their elegance and comfort. Every detail—from spacious layouts and large
-                    windows to premium materials and smart technology—is thoughtfully planned to deliver a living
-                    experience that’s both beautiful and functional. Our commitment to excellence ensures your home is
-                    not just a place to live, but a place to thrive.</p>
-            </div>
-            <div class="col-md-6 order-1 order-md-2 mt-3" data-aos="zoom-in-left">
-                <div class="card rounded-4 overflow-hidden">
-                    <img src="assets/pexels-binyaminmellish-186077-min.jpg">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-4">
-        <div class="project-header text-center" data-aos="fade-in">Projects</div>
+    <div class="container mt-4" id="project">
+        <div class="project-header text-center" data-aos="fade-down">Projects</div>
 
         <div class="project-section align-items-center">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="assets/project/28.jpg" alt="" width="700" height="auto"
-                        class="img-fluid mb-3 mb-md-0 rounded-4">
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center">
                     <h4>Sunrise Urban Enclave</h4>
+
                     <p>
                         Discover the Sunrise Urban Enclave, a modern residential project by PrimeDwell that combines
                         contemporary architecture with sustainable living. This project features spacious apartments
@@ -198,28 +149,177 @@
                         lifestyle.
                     </p>
                 </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <img src="assets/project/aerial_view.jpg" alt="" width="700" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+
             </div>
 
-            <h2 class="text-decoration-underline mt-2">Our Assortment</h2>
+            <h2 class="mt-4 text-center">Our Assortment</h2>
             <div class="row mt-2">
-                <div class="col-md-6 img-arrange position-relative">
-                    <img src="assets/project/58.jpg" alt="" width="400" height="auto"
-                        class="img-fluid mb-3 mb-md-0 rounded-4 position-absolute top-0 start-0">
-                
-                    <img src="assets/project/59.jpg" alt="" width="300" height="auto"
-                        class="img-fluid mb-3 mb-md-0 rounded-4 position-absolute bottom-0 end-0">
-                    
+                <div class="col-md-6">
+                    <img src="assets/project/bedroom_interior.jpg" alt="" width="800" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
                 </div>
                 <div class="col-md-6">
-                    <p>
-                        This project offers 1bhk, 2bhk, and 3bhk flats, imbided with modern amenities,making it urban paradise, customized to meet your earthy needs. The setting is ideal for small as well as big families.
+                    <img src="assets/project/living.jpg" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+
+                    <p class="mt-2">
+                        This project offers 1bhk, 2bhk, and 3bhk flats, imbided with modern amenities,making it
+                        urban
+                        paradise, customized to meet your earthy needs. The setting is ideal for small as well as
+                        big
+                        families.
                     </p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6 d-flex flex-column justify-content-center order-2 order-md-1">
+                    <h5>Lush Garden</h5>
+                    <p>Gardens are like ornaments, they enrich the beauty of the bearer. Similarly, gardens add serenity
+                        and calm to this project.</p>
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <img src="assets/project/garden.jpg" alt="Garden" width="800" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="assets/project/clubhouse.jpg" alt="Clubhouse" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h5>Clubhouse</h5>
+                    <p>A clubhouse is an essential part of living. We have created the most luxorious to make your
+                        community exprience joys. We have added some bonus amenities to add glits to your lifestyle</p>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-md-6 d-flex flex-column justify-content-center order-2 order-md-1">
+                    <h5>Swimming pool</h5>
+                    <p>Have a great time at the private swimming pool of the clubhouse. No need to rush to water park,
+                        every summer, enjoy water splash in your society.</p>
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <img src="assets/project/swimming_pool.jpg" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-md-6">
+                    <img src="assets/project/gym.jpg" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h5>Gym</h5>
+                    <p>With the gym at stone's throw, take your health to the next level. Experience the privilege of a
+                        private gym and don't forget to boast about it to your friends</p>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-md-6 d-flex flex-column justify-content-center order-2 order-md-1">
+                    <h5>Banquet Hall</h5>
+                    <p>Now host all your parties at the banquet house of the clubhouse. An exclusive banquet hall for
+                        the residents of the project</p>
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <img src="assets/project/63.jpg" alt="" height="auto" width="600"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+
+            </div>
+
+
+            <h2 class="text-center mt-4">Flats</h2>
+            <div class="row">
+                <div class="col-md-4 col-4">
+                    <button class="btn btn-primary w-100 mb-2" id="btn-1bhk" onclick="showbhk('one-bhk')">1Bhk</button>
+                </div>
+                <div class="col-md-4 col-4">
+                    <button class="btn btn-primary w-100 mb-2" id="btn-2bhk" onclick="showbhk('two-bhk')">2Bhk</button>
+                </div>
+                <div class="col-md-4 col-4">
+                    <button class="btn btn-primary w-100 mb-2" id="btn-3bhk"
+                        onclick="showbhk('three-bhk')">3Bhk</button>
+                </div>
+            </div>
+
+            <div class="row mt-3" id="one-bhk">
+                <div class="col-md-6">
+                    <h5 class="text-center">Type 1</h5>
+                    <img src="assets/project/1bhk_t1.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-center">Type 2</h5>
+                    <img src="assets/project/1bhk_t2.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+            </div>
+
+            <div class="row mt-3" id="two-bhk" style="display: none;">
+                <div class="col-md-4">
+                    <h5 class="text-center">Type 1</h5>
+                    <img src="assets/project/2bhk_t1.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Type 2</h5>
+                    <img src="assets/project/2bhk_t2.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Type 3</h5>
+                    <img src="assets/project/2bhk_t3.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+
+            </div>
+
+            <div class="row mt-3" id="three-bhk" style="display: none;">
+                <div class="col-md-4">
+                    <h5 class="text-center">Type 1</h5>
+                    <img src="assets/project/3bhk_t1.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Type 2</h5>
+                    <img src="assets/project/3bhk_t2.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center">Type 3</h5>
+                    <img src="assets/project/3bhk_t3.png" alt="" width="600" height="auto"
+                        class="img-fluid mb-3 mb-md-0 rounded-4">
                 </div>
             </div>
         </div>
 
-        <div class="container mt-4">
-            <div class="about-header text-center" data-aos="fade-down">About PrimeDwell</div>
+        <div class="container my-4">
+            <h3>Key Specifications</h3>
+            <div class="bg-dark bg-opacity-75 text-white p-4 rounded-4">
+                <p>• 2 lifts in each building for convenience and safety</p>
+                <p>• Dedicated kids' playing area for joyful childhood</p>
+                <p>• Beautifully landscaped gardens and green spaces</p>
+                <p>• Rainwater harvesting system for sustainability</p>
+                <p>• Ample parking space for residents and visitors</p>
+                <p>• 24x7 security and CCTV surveillance</p>
+                <p>• Modern fire safety systems</p>
+                <p>• Power backup for common areas</p>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-4">
+            <div class="about-header text-center" data-aos="fade-down" id="about">About PrimeDwell</div>
             <div class="row about-section align-items-center" data-aos="fade-up">
                 <div class="col-md-6">
                     <img src="assets/primedwell-logo.png" alt="Our Team" class="about-img mb-3 mb-md-0">
@@ -249,8 +349,8 @@
             </div>
         </div>
 
-        <div class="container mt-4">
-            <div class="contact-header text-center" data-aos="fade-down">Contact Us</div>
+        <div class="container-fluid mt-4">
+            <div class="contact-header text-center" data-aos="fade-down" id="contact">Contact Us</div>
             <div class="row contact-section align-items-center" data-aos="fade-up">
                 <div class="col-md-6 mb-4 mb-md-0">
                     <h4>Why Contact PrimeDwell?</h4>
@@ -305,31 +405,56 @@
             </div>
         </div>
 
-        <footer class="text-center mt-5 p-4 bg-dark text-white">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4">
 
-                    </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 w-100" style="border-radius:0; margin-top:40px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-2 mb-md-0">
+                    <h6 class="mb-1">PrimeDwell</h6>
+                    <small>Building Trust, Creating Homes</small>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                    <h6 class="mb-1">Quick Links</h6>
+                    <a href="#project" class="text-white text-decoration-none d-block">Projects</a>
+                    <a href="#about" class="text-white text-decoration-none d-block">About Us</a>
+                    <a href="#contact" class="text-white text-decoration-none d-block">Contact Us</a>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="mb-1">Contact</h6>
+                    <small>Email: <a href="mailto:info@primedwell.com"
+                            class="text-white">info@primedwell.com</a></small><br>
+                    <small>Phone: <a href="tel:+911234567890" class="text-white">+91 12345 67890</a></small>
                 </div>
             </div>
-            <p>Copyright &copy; 2025 PrimeDwell</p>
-        </footer>
+            <hr class="bg-secondary my-2">
+            <div>
+                <small>&copy; 2025 PrimeDwell. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: false,
+        });
 
-        <script>
-            AOS.init({
-                duration: 800,
-                once: true,
-            });
-        </script>
+        function showbhk(bhk) {
+            bhk = bhk || 'one-bhk';
+
+            document.getElementById('one-bhk').style.display = 'none';
+            document.getElementById('two-bhk').style.display = 'none';
+            document.getElementById('three-bhk').style.display = 'none';
+            document.getElementById(bhk).style.display = 'flex';
+        }
+    </script>
 </body>
 
 </html>
